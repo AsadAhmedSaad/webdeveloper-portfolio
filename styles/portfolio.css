@@ -5,7 +5,8 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
+    margin: 0 200px;
 }
 .title{
     color: var(--Dark-01, #181818);
@@ -39,17 +40,21 @@ nav>ul{
     border-radius: 5px;
 background: #FD6E0A;
 border: 0;
-
-width: 150px;
-height: 64px;
-flex-shrink: 0;
-
 color: #FFF;
 font-family: Open Sans;
 font-size: 20px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
-
 padding: 15px 35px;
+}
+
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+.baner .profile-pic{
+    width: 500px;
 }
